@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <!-- render all element  normally-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--font awesome library  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- main template css file -->
+    <link rel="stylesheet" href="css/morad.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page">
+        <!-- start side bar  -->
+        <div class="side-bar">
+            <h5>Morad</h5>
+            <div class="empty"></div>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+
+            </ul>
+            </a>
+        </div>
+        <!-- end side bar  -->
+        <!-- start settings page  -->
+        <div class="profile">
+            <header>
+                <input type="search" placeholder="Type A Keyword">
+                <div class="info">
+                    <span><i class="fa-regular fa-bell fa-lg"></i></span>
+                    <img src="images/avatar.png" alt="">
+                </div>
+            </header>
+            <div class="profile-content">
+                <div class="head">
+                    <h1>Profile</h1>
+                </div>
+                <!-- start content  -->
+                <div class="content">
+                    <div class="box-1">
+                    <div class="first">
+                        <img src="images/avatar.png" alt="">
+                        <h4>Abdallah Morad</h4>
+                        <div class="level">Level 20</div>
+                        <div class="empty"></div>
+                        <div class="rate">
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>            
+                        </div>
+                        <p>550 Rating</p>
+                    </div>
+                    <div class="sec">
+                        <div class="data">
+                            <p>General Information</p>
+                            <div class="flex">
+                                <div>Full Name: Osama Mohamed</div>
+                                <div>Gender: Male</div>
+                                <div>Country: Egypt</div>
+                            </div>
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                        <div class="data">
+                            <p>Personal Information</p>
+                            <div class="flex">
+                                <div>Email: o@nn.sa</div>
+                                <div>Phone: 019123456789</div>
+                                <div>Date Of Birth: 25/10/1982</div>
+                            </div>
+                            <label id="toggle" >
+                                <input class="toggle-checkbox" type="checkbox" >
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                        <div class="data">
+                            <p>Job Information</p>
+                            <div class="flex">
+                                <div>Title: Full Stack Developer</div>
+                                <div>Programming Language: Python</div>
+                                <div>Years Of Experience: 15+</div>
+                            </div>
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                        <div class="data">
+                            <p>Billing Information</p>
+                            <div class="flex">
+                                <div>Payment Method: Paypal</div>
+                                <div>Email: email@website.com</div>
+                                <div>Subscription: Monthly</div>
+
+                            </div>
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" >
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="skills">
+                            <h3>My Skills</h3>
+                            <p>Complete Skills List</p>
+                            <div class="skills-content">
+                                <div>HTML</div>
+                                <div>PUgJS</div>
+                                <div>HAML</div>
+                            </div>
+                            <div class="skills-content">
+                                <div>Java script</div>
+                                <div>Sass</div>
+                                <div>Sql</div>
+                            </div>
+                            <div class="skills-content">
+                                <div>Java script</div>
+                                <div>type script</div>
+
+                            </div>
+                            <div class="skills-content">
+                                <div>Vuejs</div>
+                                <div>ReactJS</div>
+                            </div>
+                            <div class="skills-content">
+                                <div>Jest</div>
+                                <div>Jasmine</div>
+                            </div>
+                            <div class="skills-content">
+                                <div>PHP</div>
+                                <div>Larvel</div>
+                            </div>
+                            <div id="none" class="skills-content">
+                                <div>Python</div>
+                                <div>Diango</div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <h3>Latest Activities</h3>
+                            <p>Latest Activities Done By The User</p>
+                            <div class="activity-content">
+                                <div class="one">
+                                    <img src="images/activity-01.png" alt="">
+                                    <div>
+                                        <span>Store</span>
+                                        <p>Bought The Mastering Python Course</p>
+                                    </div>
+                                </div>
+                                <div class="two">
+                                    <span>18:10</span>
+                                    <p>Yesterday</p>
+                                </div>
+                            </div>
+                            <div class="activity-content">
+                                <div class="one">
+                                    <img src="images/activity-02.png" alt="">
+                                    <div>
+                                        <span>Academy</span>
+                                        <p>Got The PHP Certificat</p>
+                                    </div>
+                                </div>
+                                <div class="two">
+                                    <span>18:10</span>
+                                    <p>Yesterday</p>
+                                </div>
+                            </div>
+                            <div class="activity-content">
+                                <div class="one">
+                                    <img src="images/activity-03.png" alt="">
+                                    <div>
+                                        <span>Badges</span>
+                                        <p>Unlocked The 10 Skills Badge</p>
+                                    </div>
+                                </div>
+                                <div class="two">
+                                    <span>18:10</span>
+                                    <p>Yesterday</p>
+                                </div>
+                            </div>
+                            <div class="activity-content" id="none">
+                                <div class="one">
+                                    <img src="images/activity-01.png" alt="">
+                                    <div>
+                                        <span>store</span>
+                                        <p>Bought The Typescript Course</p>
+                                    </div>
+                                </div>
+                                <div class="two">
+                                    <span>18:10</span>
+                                    <p>Yesterday</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- end content  -->
+            </div>
+        </div>
+        <!-- end settings page  -->
+    </div>
+    </body>

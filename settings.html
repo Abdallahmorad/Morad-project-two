@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <!-- render all element  normally-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--font awesome library  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- main template css file -->
+    <link rel="stylesheet" href="css/morad.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page">
+        <!-- start side bar  -->
+        <div class="side-bar">
+            <h5>Morad</h5>
+            <div class="empty"></div>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="active"> 
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+
+            </ul>
+            </a>
+        </div>
+        <!-- end side bar  -->
+        <!-- start settings page  -->
+        <div class="settings">
+            <header>
+                <input type="search" placeholder="Type A Keyword">
+                <div class="info">
+                    <span><i class="fa-regular fa-bell fa-lg"></i></span>
+                    <img src="images/avatar.png" alt="">
+                </div>
+            </header>
+            <div class="settings-content">
+                <div class="head">
+                    <h1>Settings</h1>
+                </div>
+                <!-- start content  -->
+                <div class="content">
+                    <div class="box-1">
+                        <h3>Site Control</h3>
+                        <p>Control The Website If There Is Maintenance</p>
+                        <div class="toggle">
+                            <div class="text">
+                                <p>Website Control</p>
+                                <span>Open/Close Website And Type The Reason</span>
+                            </div>
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                        <input class="title" type="text" placeholder="close message content">
+
+                    </div>
+
+
+
+
+                    <div class="box-2">
+                        <h3>General Info</h3>
+                        <p>General Information About Your Account</p>
+                        <form action="">
+                            <div class="first">
+                                <label>First Name</label>
+                                <br>
+                                <input type="text" placeholder="First Name">
+                            </div>
+                            <div class="last">
+                                <label>Last Name</label>
+                                <br>
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                            <div class="email">
+                                <label>Email</label>
+                                <br>
+                                <input type="email" placeholder="@naa" disabled>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="box-3">
+                        <h3>Security Info</h3>
+                        <p>Security Information About Your Account</p>
+                        <div class="password">
+                            <div>
+                                <span>Password</span>
+                                <p>Last Change On 25/10/2021</p>
+                            </div>
+                            <div>
+                                <a href="#">Change</a>
+                            </div>
+                        </div>
+                        <div class="toggle">
+                            <div class="text">
+                                <span>Two-Factor Authentication</span>
+                                <p>Enable/Disable The Feature </p>
+                            </div>
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                        <div class="device">
+                            <div>
+                                <span>Devices</span>
+                                <p>Last Change On 25/10/2021</p>
+                            </div>
+                            <div>
+                                <a href="#">Device</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="box-4">
+                        <h3>Social Info</h3>
+                        <p>Social Media Information</p>
+                        <div class="twitter">
+                            <i class="fa-brands fa-twitter center-flex c-grey"></i>
+                            <input type="text" placeholder="Twitter Username">
+                        </div>
+                        <div class="twitter">
+                            <i class="fa-brands fa-facebook-f center-flex c-grey"></i>
+                            <input type="text" placeholder="Facebook Username">
+                        </div>
+                        <div class="twitter">
+                            <i class="fa-brands fa-linkedin center-flex c-grey"></i>
+                            <input type="text" placeholder="Linkedin username">
+                        </div>
+                        <div class="twitter">
+                            <i class="fa-brands fa-youtube center-flex c-grey"></i>
+                            <input type="text" placeholder="Youtube Username">
+                        </div>
+                    </div>
+
+
+                    <div class="box-5">
+                        <h3>Widgets Control</h3>
+                        <p>Show/Hide Widgets</p>
+                        <div>
+                            <input id="Q" type="checkbox" checked>
+                            <label for="Q">Quick Draft</label>
+                        </div>
+                        <div>
+                            <input id="y" type="checkbox" checked>
+                            <label for="y">Yearly Targets</label>
+                        </div>
+                        <div>
+                            <input id="t" type="checkbox" checked>
+                            <label for="t">Tickets Statistics</label>
+                        </div>
+                        <div>
+                            <input id="l" type="checkbox" checked>
+                            <label for="l">Latest News</label>
+                        </div>
+                        <div>
+                            <input id="ta" type="checkbox">
+                            <label for="ta">Latest Tasks</label>
+                        </div>
+                        <div>
+                            <input id="to" type="checkbox" checked>
+                            <label for="to">Top Search Items</label>
+                        </div>
+                    </div>
+                    <div class="box-6">
+                        <h3>Backup Manager</h3>
+                        <p>Control Backup Time And Location</p>
+                        <div class="radio">
+                            <input id="d" type="radio" checked>
+                            <label for="d">Daily</label>
+                        </div>
+                        <div class="radio">
+                            <input id="w" type="radio">
+                            <label for="w">Weekly</label>
+                        </div>
+                        <div class="radio">
+                            <input id="m" type="radio">
+                            <label for="m">Monthly</label>
+                        </div>
+                        <div class="three">
+                            <div>
+                                <i class="fa-solid fa-server d-block mb-10"></i>
+                                <p>Megaman</p>
+                            </div>
+                            <div id="special">
+                                <i class="fa-solid fa-server d-block mb-10"></i>
+                                <p>Zero</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-server d-block mb-10"></i>
+                                <p>Sigma</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end content  -->
+            </div>
+        </div>
+        <!-- end settings page  -->
+    </div>
+
+</body>
+
+</html>
